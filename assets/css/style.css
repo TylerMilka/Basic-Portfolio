@@ -21,14 +21,13 @@
 	margin: 3% 10%;
 	}
 
-#aboutme { 
-
-	left: 20px;
-	color: #4aaaa5;
-
-}
-
 /*box surrouning body content css*/
+
+#aboutme { 
+	color: #4aaaa5;
+	margin-left: 33%;
+	
+}
 
 .bodycontent {
 	background-image: url("xv.png");
@@ -36,14 +35,15 @@
 	border-bottom-style: solid;
 	bottom-border-width: 25px;
 	border-bottom-color: #4aaaa5;
-	
+	position: absolute;
 	}
 
 /*box containing left side  */
 .leftcontent {
-	margin: 30px 45% 20% 100px;
+	margin: 30px 45% 100px 100px;
 	padding-bottom: 100px;
 	border: ;
+	border-color: green;
 	background-color: white;
 	padding-left: 25px;
 	}
@@ -55,10 +55,10 @@
 	padding-left: 15px;
 }
 
-/* box containing right side */
-.rightcontent {
-	margin: 30px 45% 20% 100px;
-	padding-left: 55px;
-	background-color: white;
+/* left side bar content */
+
+img {
+
 }
+
 
