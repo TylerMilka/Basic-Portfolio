@@ -125,7 +125,7 @@
 		}
 /*End index styling */
 
-/*begin portfolio styling */
+/*begin "portfolio" styling */
 
 
 	.portfolioleftcontent{ 
@@ -141,5 +141,24 @@
 	border: solid;
 	border-color: #cccccc;
 	border-width: 1px;
+}
+
+	#pic1 {
+
+		margin-top: 10px;
+		width: 200px;
 
 	}
+
+	#pic2 {
+
+		width:200px;
+	}
+
+	#pic2 {}
+
+	#pic4{}
+
+	#pic5{}
+	
+	#pic6{}
