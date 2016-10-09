@@ -2,13 +2,6 @@
 
 /*Begin global fonts for all pages */
 
-.pagewrapper {
-
-	
-
-	
-}
-
 .header{
 	flex-flow: column;
 	height: 66px;
@@ -62,6 +55,12 @@ hr {
 	color: #666666;
 	width: 88%; 
 	border-width: 2px;
+
+}
+
+h1,h2,h3 {
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
@@ -170,77 +169,96 @@ hr {
 
 	}
 
+	.picture1 {
 
-	#pic1 {
-	
-		position: absolute;
-		margin: 90px 20px 20px 20px;
+	position: relative;
+	width: 60%;
 		
-				}
+	}
 
 	#hangman {
-		
-		margin-bottom: 200px;
+		position: absolute;
+		text-align: center;
+		width: 150;
+		bottom: 0px;
 		background-color: #4aaaa5;
 		color: white;
-		padding: 15px 80px 15px 81px;
-		border-left: 25px;
-		position: absolute;
+		padding: 15px 80px 15px 80px;
+		
 	}
 	
+	.picture2 {
 
-	#pic2 {
+		position: relative;
+		width: 75%;
 
-		position: absolute;
-		margin: 90px 20px 20px 20px;
-		
-				}
+	}
 
 	#rpg {
-
-		margin-bottom: 200px;
+		position: absolute;
+		text-align: center;
+		width: 150;
+		left: 0px;
+		bottom: 0px;
 		background-color: #4aaaa5;
 		color: white;
-		padding: 15px 80px 15px 100px;
-		border-left: 25px;
-		position: absolute;
-	}
-	
-	}
-
-	#picture2 {
+		padding: 15px 80px 15px 80px;
 		
-		margin-bottom: 200px;
-		background-color: #4aaaa5;
-		color: white;
-		padding: 15px 80px 15px 81px;
-		border-left: 25px;
-		position: absolute;
 	}
 	
+	.picture3 {
 
-	#pic3 {
-		margin: 25px 25px 25px 20px;
-		width: 270px;
-		height: 150px;
-			}
-	
-	#pic4 {
-		margin: 25px 25px 25px 20px;
-		width: 270px;
-		height: 150px;
-			}
-	#pic5 {
-		margin: 25px 25px 25px 20px;
-		width: 270px;
-		height: 150px;
+		position: relative;
+		width: 75%;		
 		}
+
+	#triviagame {
+		position: absolute;
+		text-align: center;
+		width: 150;
+		left: 0px;
+		bottom: 0px;
+		background-color: #4aaaa5;
+		color: white;
+		padding: 15px 80px 15px 80px;
+	}
 	
-	#pic6 {
-		margin: 25px 25px 25px 20px;
-		width: 270px;
-		height: 150px;
-		}
+.picture4 {
+
+		position: relative;
+		width: 75%;
+	}
+
+#rutgers{
+		position: absolute;
+		text-align: center;
+		width: 150;
+		left: 0px;
+		bottom: 0px;
+		background-color: #4aaaa5;
+		color: white;
+		padding: 15px 80px 15px 80px;
+	}
+
+
+.picture5 {
+
+		position: relative;
+		width: 75%;
+	}
+
+#rock{
+
+		position: absolute;
+		text-align: center;
+		width: 150;
+		left: 0px;
+		bottom: 0px;
+		background-color: #4aaaa5;
+		color: white;
+		padding: 15px 80px 15px 80px;
+	}s
+
 	
 /* Begin CSS for Contact Form */
 	
@@ -265,4 +283,8 @@ hr {
 
 			width: 95%;
 			height: 200px;
+			
 	}
+
+
+	
